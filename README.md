@@ -1,4 +1,5 @@
 edx-class-saas
 ==============
 
-Assignments from EdX's Software as a Service class (Ruby on Rails)
+BerkeleyX: CS169.1x Engineering Software as a Service
+Ruby on Rails
