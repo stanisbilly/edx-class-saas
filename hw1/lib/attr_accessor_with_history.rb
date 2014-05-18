@@ -8,14 +8,14 @@ class Class
 
     	def #{attr_name}= value
     		
-    		# initialize if doesn't exist
+				# initialize if doesn't exist
 				@#{attr_name}_history = [] if @#{attr_name}_history.nil?
-				
+
 				# add to history
-    		@#{attr_name}_history << #{attr_name}
+				@#{attr_name}_history << #{attr_name}
 
 				# set the value itself
-    		@#{attr_name} = value
+				@#{attr_name} = value
     	end
 
     	def #{attr_name}_history; @#{attr_name}_history; end
